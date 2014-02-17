@@ -40,18 +40,90 @@ This specifies constraints on the way that the problem must be solved. Describe 
 \subsection{Relevant Facts}
 \subsection{Business Rules}
 \subsection{Assumptions}
-
-
 \pagebreak
-\section{Use Cases}
+\section{The Scope of the Work}
+\subsection{The Current Situation}
+\subsection{The Context of the Work}
+\subsection{Work Partitioning}
+\subsection{Specifying a Business Use Case}
+\pagebreak
+\section{The Scope of the Product}
+\subsection{Product Boundary}
+\paragraph{}
+A use case diagram identifies the boundaries between the users (actors) and the product you are about to build (this is sometimes called "the system"). You arrive at the product boundary by inspecting each business use case and determining, in conjunction with the appropriate stakeholders, which part of the business use case should be automated (or satisfied by some sort of product) and what part should be done by the user. This task must take into account the abilities of the actors (section 2), the constraints (section 3), the goals of the project (section 1), and your knowledge of both the work and the technology that can make the best contribution to the work.
+The use case diagram shows the actors/users outside the product boundary (the rectangle). The product use cases (PUCs) are the ellipses inside the boundary. The numbers link each PUC back to the BUC that it came from (see section 6). The lines denote usage. Note that actors can be either automated or human.
+\paragraph{}
+Derive the PUCs by deciding where the product boundary should be for each business use case (BUC). These decisions are based on your knowledge of the work and the requirements constraints. Note that the PUCs that you come up with must be traceable back to the BUCs. The numbers on the PUC diagram correspond to the BUC numbers on the Business Event List (see section 6).
+\subsection{Product Use Case Table}
+\subsection{Individual Product Use Cases}
 \pagebreak
 \section{Functional Requirements}
+\paragraph{}
+Functional requirements are the fundamental or essential subject matter of the product. They describe what the product has to do or what processing actions it is to take.
+\subsection{Functional Requirements}
+\subsection{Requirements Shell}
+\paragraph{}
+Each atomic requirement is made up of a number of attributes. The requirements shell is a guide to writing each atomic functional (section 9) and non-functional requirements (sections 10-17). Here is an example of the content of the shell shown in graphic form. The shell can and should be automated.
 \pagebreak
 \section{Non-functional Requirements}
-\subsection{Usability Requirements}
-\subsection{Environmental Requirements}
-\subsection{Interaction Requirements}
-\subsection{Technical Requirements}
+\subsection{Look and Feel Requirements}
+\paragraph{}
+Nonfunctional requirements (sections 10-17) are the properties that the functions must have, such as performance and usability. Do not be deterred by the unfortunate type name (we use it because it is the most common way of referring to these types of requirements)—these requirements are as important as the functional requirements for the product’s success.
+\subsubsection{Appearance Requirements}
+\subsubsection{Style Requirements}
+\subsection{Usability and Humanity Requirements}
+\subsubsection{Ease of Use Requirements}
+\subsubsection{Personalization Requirements}
+\subsubsection{Learning Requirements}
+\paragraph{}
+How easy it is to learn how to use the product.
+\subsubsection{Understandability and Politeness Requirements}
+\subsubsection{Accessibility Requirements}
+\paragraph{}
+The requirements for how easy it should be for people with common disabilities to access the product. These disabilities might be related to physical disability or visual, hearing, cognitive, or other abilities.
 \pagebreak
-\section{Constraints}
+\section{Performance Requirements}
+\subsection{Speed and Latency Requirements}
+\subsection{Safety-Critical Requirements}
+\subsection{Precision or Accuracy Requirements}
+\subsection{Reliability and Availability Requirements}
+\subsection{Robustness or Fault-Tolerance Requirements}
+\subsection{Capacity Requirements}
+\subsection{Scalability or Extensibility Requirements}
+\subsection{Longevity Requirements}
+\pagebreak
+\section{Operational and Environmental Requirements}
+\subsection{Expected Physical Environment}
+\subsection{Requirements for Interfacing with Adjacent Systems}
+\subsection{Release Requirements}
+\pagebreak
+\section{Maintainability and Support Requirements}
+\subsection{Maintenance Requirements}
+\subsection{Supportability Requirements}
+\subsection{Adaptability Requirements}
+\pagebreak
+\section{Security Requirements}
+\subsection{Access Requirements}
+\subsection{Integrity Requirements}
+\subsection{Privacy Requirements}
+\subsection{Audit Requirements}
+\subsection{Immunity Requirements}
+\pagebreak
+\section{Legal Requirements}
+\subsection{Compliance Requirements}
+\subsection{Standards Requirements}
+\pagebreak
+\section{Off-the-Shelf Solutions}
+\pagebreak
+\section{New Problems}
+\subsection{Effects on the Current Environment}
+\subsection{Effects on Installed Systems}
+\subsection{Potential User Problems}
+\subsection{Limitations in the Anticipated Implementation Environment That May Inhibit the New Product}
+\subsection{Follow-Up Problems}
+\pagebreak
+\section{Migration to the New Product}
+\subsection{Data That Has to Be Modified or Translated for the New System}
+\pagebreak
+\section{Risks}
 \end{document}
