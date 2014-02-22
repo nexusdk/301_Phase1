@@ -21,7 +21,7 @@ The purpose of this document is to make an agreement between the developers and 
 The purpose of the project is to develop a software solution which provides a web and mobile platform for markers, students and lecturers handle marks and marking in the Department of Computer Sciences. It will uphold the privacy of students so that students cannot see each others marks. It will reduce paper work and the chances that marks can be lost and provide a centralized repository for student marks. It will provide functionality to generate customizable reports at different levels of granularity.
 \section{Background}
 \paragraph{}
-Currently a marker has to use paper in order to record, process and submit student marks. This process is lengthy and 
+Currently a marker has to use paper in order to record, process and submit student marks. This process is lengthy and risky since marks get lost and people make mistakes adding up marks.
 \section{The Stakeholders}
 \subsection{The Client}
 The Client is Mr Jan Kroeze at the Department of Computer Science.
@@ -32,8 +32,7 @@ The Project will be maintained by the departmental technical assistants in Tech-
 \section{Architecture requirements}
 \subsection{Access Requirements}
 \paragraph{}
-The Project needs to be accessible from mobile devices, specifically Android devices, as well as Desktop web browsers.\\
-\begin{Huge} nvanrooyen will do this \end{Huge}
+The Project needs to be accessible from mobile devices, specifically Android devices, as well as Desktop web browsers.
 \subsection{Quality Requirements}
 \subsubsection{Performance}
 \subsubsection{Computational Cost}
@@ -44,12 +43,20 @@ The Project needs to be accessible from mobile devices, specifically Android dev
 \subsubsection{Flexibility}
 \subsubsection{Monitor Requirements}
 \subsection{Integration Requirements}
-\begin{Huge} nvanrooyen will do this \end{Huge}
+\begin{itemize}
+\item The Project must be integrated with the Computer Science web site.
+\item Authentication must be done via LDAP.
+\item Marks must be stored in Mysql
+\end{itemize}
 \subsection{Architecture Constraints}
-The Project needs to be created in the django framework. This is crucial for integrating with the Computer Science web site.\\
-\begin{Huge} nvanrooyen will do this \end{Huge}
+\begin{itemize}
+\item The Project needs to be created in the django framework.
+\item The Project must be accessible from Android devices.
+\end{itemize}
 \section{Functional Requirements}
 \subsection{Introduction}
+\paragraph{}
+This section discusses the application functionality required by the stakeholders.
 \subsection{Scope and Limitations/Exclusions}
 \subsection{Required Functionality}
 nvanrooyen will do use case diagrams. Will be done by Tuesday.
